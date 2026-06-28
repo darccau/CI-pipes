@@ -20,7 +20,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "hello world agai"}
+    return {"message": "hello world again"}
 
 
 @app.get("/users/{user_id}")
