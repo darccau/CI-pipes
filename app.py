@@ -35,7 +35,7 @@ def create_item(item: Item):
 
 @app.get("/sleep_slow")
 def sleep_slow():
-    _ = time.sleep(1)
+    _ = time.sleep(2)
     return {"status": "done"}
 
 
